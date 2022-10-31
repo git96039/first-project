@@ -4,7 +4,7 @@
   <testcase classname="org.TestNg.bike.bikedup" name="bikedupw" time="0.001"/>
   <testcase classname="org.TestNg.bike.bikedup" name="homedup" time="0.002"/>
   <testcase classname="org.TestNg.bike.bikedup" name="phonedup" time="0.004"/>
-  <testcase classname="org.TestNg.bike.bike" name="bike" time="0.002"/>
-  <testcase classname="org.TestNg.bike.bike" name="home" time="0.002"/>
-  <testcase classname="org.TestNg.bike.bike" name="phone" time="0.001"/>
+  <testcase classname="ContactUs_UniCreds" name="bike" time="0.002"/>
+  <testcase classname="ContactUs_UniCreds" name="home" time="0.002"/>
+  <testcase classname="ContactUs_UniCreds" name="phone" time="0.001"/>
 </testsuite> <!-- aa3 -->

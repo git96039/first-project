@@ -1,13 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="methods" thread-count="2">
-  <test thread-count="5" name="Test">
-
-    <classes>
-     <!--  <class name="org.TestNg.tv.tv"/>
-      <class name="org.TestNg.bike.bikedup"/>-->
-      <class name="org.TestNg.home.home"/>
-     <!--  <class name="org.TestNg.bike.bike"/>-->
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/kalyan/IdeaProjects/Demo6"><classes><class name="Unicreds.ContactUs_UniCreds_Fields"><methods><include name="User"/></methods></class><class name="Unicreds.Verify_all_Links"><methods><include name="allLinks"/></methods></class><class name="Unicreds.Verify_mandatery_fields"><methods><include name="mandatery"/></methods></class></classes></test></suite>
