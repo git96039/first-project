@@ -25,6 +25,7 @@ public class ContactUs_UniCreds {
 
         driver.get(properties.getProperty("url"));
         driver.manage().window().maximize();
+
        WebElement Icon= driver.findElement(By.xpath("(//span[text()='Show us some love'])[2]"));
         String HomePageActual=Icon.getText();
         Assert.assertEquals(HomePageActual,properties.getProperty("validHomePage"));
